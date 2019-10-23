@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-23T01:58:45.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="Qf-LyMyN0gqfcH9iGPZh" version="12.1.3" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-23T01:59:13.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="SOt6C8XK3JymtElIy7t1" version="12.1.3" type="github" pages="2">
   <diagram id="D7lgIayUx78x3HNl52xG" name="申请授信">
     <mxGraphModel dx="2075" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1498,7 +1498,7 @@
         <mxCell id="SUKbZxRpNyqMU-CvNKff-38" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="SUKbZxRpNyqMU-CvNKff-37">
           <mxGeometry width="30" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="7ld_urE5YBeMVV8OPsrA-6" value="额度" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" vertex="1" parent="SUKbZxRpNyqMU-CvNKff-0">
+        <mxCell id="7ld_urE5YBeMVV8OPsrA-6" value="授信额度" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" vertex="1" parent="SUKbZxRpNyqMU-CvNKff-0">
           <mxGeometry y="524" width="160" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="7ld_urE5YBeMVV8OPsrA-7" value="M" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="7ld_urE5YBeMVV8OPsrA-6">
