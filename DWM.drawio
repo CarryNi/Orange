@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-08-25T07:18:52.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="z3YEuPAWcGh37A5rISvb" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-25T07:19:28.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="98bMXhZnrGgCO_bJiIr0" version="13.6.4" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hfPjYBDDl_VoTCLZ8sP7-1" value="dwm_cost_equity_dtl_di 成本主题权益明细表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="400" y="20" width="290" height="1620" as="geometry" />
+        <mxCell id="hfPjYBDDl_VoTCLZ8sP7-1" value="dwm_cost_equity_dtl_di &#xa;成本主题权益明细表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="290" height="1650" as="geometry" />
         </mxCell>
         <mxCell id="hfPjYBDDl_VoTCLZ8sP7-2" value="pk_id" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;" vertex="1" parent="hfPjYBDDl_VoTCLZ8sP7-1">
           <mxGeometry y="26" width="290" height="30" as="geometry" />
@@ -13,14 +13,20 @@
         <mxCell id="hfPjYBDDl_VoTCLZ8sP7-3" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="hfPjYBDDl_VoTCLZ8sP7-2">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hfPjYBDDl_VoTCLZ8sP7-12" value="pk_id" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;" vertex="1" parent="hfPjYBDDl_VoTCLZ8sP7-1">
+          <mxGeometry y="56" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hfPjYBDDl_VoTCLZ8sP7-13" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="hfPjYBDDl_VoTCLZ8sP7-12">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="hfPjYBDDl_VoTCLZ8sP7-4" value="request_serial_id   请求流水号&#xa;&#xa;equity_dtl_id   权益明细号&#xa;&#xa;cost_use_amt    成本使用金额&#xa;&#xa;order_amt   订单交易金额&#xa;&#xa;request_sys_cd  请求系统代码&#xa;&#xa;intraday_reverse_ind    当日逆向标识&#xa;&#xa;cost_use_tm String  本消耗时间&#xa;&#xa;cost_use_dt String  本使用日期&#xa;&#xa;trans_cha_cd    交易渠道编码&#xa;&#xa;solution_cd String  决方案号&#xa;&#xa;pay_prod_cd String  付产品码&#xa;&#xa;operator_id String  作员号&#xa;&#xa;contract_id String  户账户号&#xa;&#xa;cust_id String  户号&#xa;&#xa;mobile_nbr  手机号&#xa;&#xa;mobile_prov_cd  手机号省份编码&#xa;&#xa;mobile_prov_nm  手机号省份名称&#xa;&#xa;mobile_city_cd  手机号地市编码&#xa;&#xa;mobile_city_nm  手机号地市名称&#xa;&#xa;mobile_clec_nm  手机号运营商&#xa;&#xa;activity_id String  动号&#xa;&#xa;activity_nm String  动名称&#xa;&#xa;activity_type_cd    活动类型编码&#xa;&#xa;activity_type_nm    活动类型名称&#xa;&#xa;activity_prov_cd    活动省份编码&#xa;&#xa;activity_prov_nm    活动省份名称&#xa;&#xa;activity_city_cd    活动地市编码&#xa;&#xa;activity_city_nm    活动地市名称&#xa;&#xa;dept_cd String  门编码&#xa;&#xa;dept_nm String  门名称&#xa;&#xa;tool_id String  具ID&#xa;&#xa;tool_type_nm    工具类型名称&#xa;&#xa;tool_type_cd    工具类型编码&#xa;&#xa;equity_id   权益号&#xa;&#xa;exter_vou_id    外部券号&#xa;&#xa;equity_nm   权益名称&#xa;&#xa;equity_type_cd  权益类型编码&#xa;&#xa;equity_type_nm  权益类型名称&#xa;&#xa;vou_type    券类型&#xa;&#xa;investor_type_nm    出资方类型名称&#xa;&#xa;apportion_ratio String  资方比例&#xa;&#xa;parent_merchant_id  父商户号&#xa;&#xa;parent_merchant_nm  父商户名称&#xa;&#xa;merchant_id String  户号&#xa;&#xa;merchant_nm String  户名称&#xa;&#xa;store_id    门店号&#xa;&#xa;store_nm    门店名称&#xa;&#xa;store_prov_cd   门店省份编码&#xa;&#xa;store_prov_nm   门店省份名称&#xa;&#xa;store_city_cd   门店地市编码&#xa;&#xa;store_city_nm   门店地市名称&#xa;&#xa;src_table   来源表&#xa;&#xa;create_tm   创建时间&#xa;&#xa;upd_tm  更新时间&#xa;&#xa;etl_tm  ETL时间" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" vertex="1" parent="hfPjYBDDl_VoTCLZ8sP7-1">
-          <mxGeometry y="56" width="290" height="1554" as="geometry" />
+          <mxGeometry y="86" width="290" height="1554" as="geometry" />
         </mxCell>
         <mxCell id="hfPjYBDDl_VoTCLZ8sP7-5" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="hfPjYBDDl_VoTCLZ8sP7-4">
           <mxGeometry width="30" height="1554" as="geometry" />
         </mxCell>
         <mxCell id="hfPjYBDDl_VoTCLZ8sP7-10" value="" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontSize=12;" vertex="1" parent="hfPjYBDDl_VoTCLZ8sP7-1">
-          <mxGeometry y="1610" width="290" height="10" as="geometry" />
+          <mxGeometry y="1640" width="290" height="10" as="geometry" />
         </mxCell>
         <mxCell id="hfPjYBDDl_VoTCLZ8sP7-11" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="hfPjYBDDl_VoTCLZ8sP7-10">
           <mxGeometry width="30" height="10" as="geometry" />
